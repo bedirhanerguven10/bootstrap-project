@@ -46,7 +46,20 @@
 /*! --------------- 3- ABOUT SECTION ----------- */
 
 /*! ------------ 4- STUDENTS SECTION ----------- */
+section#instructors .socials i {
+  transition: opacity 1s;
+}
 
+section#instructors .socials i:hover {
+  opacity: 0.5;
+}
+section#instructors .card {
+  transition: transform 1s;
+}
+
+section#instructors .card:hover {
+  transform: scale(1.05);
+}
 /*! ------------ 5- COURSES SECTION ------------- */
 
 /*! ------------ 6- CONTACT SECTION ------------ */
